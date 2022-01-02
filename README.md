@@ -1,5 +1,5 @@
 # Studio-Infocus website
-This is the presentation website that promotes a young photographer's work and skills in Timisoara.
+This is a presentation website that promotes a young photographer's work and skills in Timisoara.
 
 ## Project structure
 ```
@@ -19,7 +19,7 @@ This is the presentation website that promotes a young photographer's work and s
    - simple email box
    - instagram
 
-Every page will have a nav header and a footer that contains social media and stuff like that.s
+Every page will have a nav header and a footer that contains social media and stuff like that.
 ```
 
 ### Code quality requirements

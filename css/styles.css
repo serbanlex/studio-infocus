@@ -1,0 +1,15 @@
+.navbar-brand {
+    cursor: default;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, rgb(70, 70, 70), rgb(29, 29, 29));
+}
+
+.dropdown-menu-color {
+    background-color:  rgb(39, 39, 39);
+}

@@ -61,9 +61,55 @@ margin-bottom: 1.5rem;
 }
 
 .gri-anti-jeg{
-    background-color:rgb(202, 199, 199);
+    background-color:rgb(240, 238, 238);
 }
 
 .card{
     margin-bottom: 3rem;
+}
+
+.gradient-middle-service-card {
+    background-color: rgb(29, 29, 29);
+}
+
+.gradient-right-service-card {
+    background-image: linear-gradient(to left, rgb(70, 70, 70), rgb(29, 29, 29));
+}
+
+.photo-card-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("https://studioinfocus.ro/wp-content/uploads/2021/09/IMG_4573-1024x683.jpg");
+    background-size: cover;
+}
+
+.design-card-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("https://studioinfocus.ro/wp-content/uploads/2021/09/IMG_4516-1024x683.jpg");
+    background-size: cover;
+}
+
+.edit-card-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("https://studioinfocus.ro/wp-content/uploads/2021/09/IMG_4503-1024x683.jpg");
+    background-size: cover;
+}
+
+.card-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 0.2rem solid white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.card-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.ocupatie-main-page {
+    color: rgb(73, 72, 72)
 }

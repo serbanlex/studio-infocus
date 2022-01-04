@@ -13,3 +13,57 @@
 .dropdown-menu-color {
     background-color:  rgb(39, 39, 39);
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+ .evenimente-jumbotron-background {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url("https://img2.wallspic.com/originals/9/8/6/2/3/132689-natural_landscape-nature_reserve-brides-wedding-marriage-1920x1080.jpg");
+ }
+
+ .mt-10 {
+     margin-top: 10rem;
+ }
+
+ .list-group-item-action:hover{
+    color: black;
+    background-color: #d6dfe7;
+ }
+
+.close {
+    font-size: 1.5rem;
+  }
+  
+.col-12 img {
+cursor: pointer;
+width: 100%;
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+}
+
+.col-12 img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container img {
+    max-width: 100%;
+}
+
+#gallery-modal .modal-img {
+    width: 100%;
+}
+
+.carousel-button {
+    padding: 1.5rem;
+}
+
+.gri-anti-jeg{
+    background-color:rgb(202, 199, 199);
+}
+
+.card{
+    margin-bottom: 3rem;
+}

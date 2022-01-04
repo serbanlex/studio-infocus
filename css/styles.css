@@ -133,3 +133,7 @@ margin-bottom: 1.5rem;
     transition: 0.3s;
     color: rgb(175, 11, 11);
 }
+
+.card-header {
+    padding: 2rem;
+}

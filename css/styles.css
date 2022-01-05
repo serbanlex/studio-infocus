@@ -23,15 +23,15 @@
     margin-top: 0;
  }
 
- .evenimente-jumbotron-background {
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-     url("../resources/evenimente/wedding.jpg");
+.evenimente-jumbotron-background {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+     url("../resources/evenimente/evenimente-infocus-jumbo.jpg");
      background-repeat: no-repeat;
      background-position: 50% 50%;
      background-size: cover;
  }
 
- .arta-jumbotron-background {
+.arta-jumbotron-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../resources/arta/arta-infocus.jpg");
     background-repeat: no-repeat;
@@ -64,21 +64,61 @@
 }
 
 .sedinte-jumbotron-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../resources/sedinte/dilu.jfif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../resources/sedinte/sedinte-infocus-jumbo.jpg");
     background-repeat: no-repeat;
     background-position: 60% 60%;
     background-size: cover;
 }
 
- .mt-10 {
-     margin-top: 10rem;
- }
+.logo-jumbotron-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../resources/template/template.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
 
- .list-group-item-action:hover{
+.flyer-jumbotron-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../resources/template/template.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.design-jumbotron-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../resources/template/template.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.foto-jumbotron-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../resources/template/template.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.video-jumbotron-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../resources/template/template.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.mt-10 {
+     margin-top: 10rem;
+}
+
+.list-group-item-action:hover{
     color: black;
     background-color: #d6dfe7;
- }
+}
 
 .close {
     font-size: 1.5rem;
@@ -154,6 +194,8 @@ margin-bottom: 1.5rem;
     transition: 0.3s;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .photo-card-button {
@@ -234,4 +276,8 @@ margin-bottom: 1.5rem;
     background-position: 25% 25%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.main-page-carousel-button {
+    background-color: #d99400;
 }

@@ -281,22 +281,36 @@ margin-bottom: 1.5rem;
 .main-page-carousel-button {
     background-color: #d99400;
 }
+
+.panic-footer-width {
+    width: 4rem;
+}
+
 @media only screen and (max-width: 1500px) {
     .navbar-brand img {
-        width: 25%;
+        width: 50%;
     }
-  }
+}
 
-  @media only screen and (max-width: 770px) {
+@media only screen and (max-width: 770px) {
     .gradient {
         background-size: 0;
         background-color: rgb(70, 70, 70);
+        display: flex;
         justify-content: center;
         padding-bottom: 5%;
     }
 
     .navbar-brand img {
-        padding-left: 20%;
         padding-bottom: 5%;
+        width: 100%;
     }
-  }
+
+    .panic-footer-width {
+        width: 2rem;
+    }
+
+    .responsive-contact {
+        font-size: 1.2rem;
+    }
+}

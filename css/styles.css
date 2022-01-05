@@ -282,10 +282,8 @@ margin-bottom: 1.5rem;
     background-color: #d99400;
 }
 
-
-
   @media only screen and (max-width: 1500px) {
-    .responsive-nav-brand {
+    .navbar-brand img {
         width: 80%;
     }
   }
@@ -298,7 +296,7 @@ margin-bottom: 1.5rem;
         padding-bottom: 5%;
     }
 
-    .responsive-nav-brand {
+    .navbar-brand img {
         padding-left: 20%;
         padding-bottom: 5%;
     }

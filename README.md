@@ -1,5 +1,5 @@
 # Studio-Infocus website
-This is a presentation website that promotes a young photographer's work and skills in Timisoara.<br>
+This is a presentation website that promotes the work and skills of 2 young photographers in Timisoara. <br>
 The site is available [here](https://studioinfocus.ro/).
 
 

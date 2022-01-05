@@ -288,7 +288,19 @@ margin-bottom: 1.5rem;
 
 @media only screen and (max-width: 1500px) {
     .navbar-brand img {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar-brand img {
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar-brand img {
+        width: 80%;
     }
 }
 
@@ -303,7 +315,8 @@ margin-bottom: 1.5rem;
 
     .navbar-brand img {
         padding-bottom: 5%;
-        width: 100%;
+        width: 50%;
+        margin-left: 4rem;
     }
 
     .panic-footer-width {

@@ -281,10 +281,9 @@ margin-bottom: 1.5rem;
 .main-page-carousel-button {
     background-color: #d99400;
 }
-
-  @media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1500px) {
     .navbar-brand img {
-        width: 80%;
+        width: 25%;
     }
   }
 

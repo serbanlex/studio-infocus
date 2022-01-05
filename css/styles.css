@@ -28,8 +28,8 @@
  }
 
  .arta-jumbotron-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../resources/arta/sunflowers.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../resources/arta/arta-infocus.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -37,25 +37,33 @@
 
 .produse-jumbotron-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../resources/produse/watch.jpg");
+    url("../resources/produse/produse-infocus.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .macro-jumbotron-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../resources/macro/bridge.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../resources/macro/macro-infocus.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
 }
 
 .urbex-jumbotron-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../resources/macro/bridge.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../resources/urbex/urbex-infocus.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    background-size: cover;
+}
+
+.sedinte-jumbotron-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../resources/sedinte/dilu.jfif");
+    background-repeat: no-repeat;
+    background-position: 60% 60%;
     background-size: cover;
 }
 
@@ -99,7 +107,7 @@ margin-bottom: 1.5rem;
     background-color:rgb(240, 238, 238);
 }
 
-.card{
+.card {
     margin-bottom: 3rem;
 }
 
@@ -112,27 +120,28 @@ margin-bottom: 1.5rem;
 }
 
 .photo-card-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("https://studioinfocus.ro/wp-content/uploads/2021/09/IMG_4573-1024x683.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+    url("../resources/main/fotografie-infocus.jpg");
     background-size: cover;
+    background-position: 10%;
 }
 
 .design-card-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("https://studioinfocus.ro/wp-content/uploads/2021/09/IMG_4516-1024x683.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+    url("../resources/main/design-infocus.jpg");
     background-size: cover;
 }
 
 .edit-card-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("https://studioinfocus.ro/wp-content/uploads/2021/09/IMG_4503-1024x683.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+    url("../resources/main/editare-infocus.jpg");
     background-size: cover;
 }
 
 .card-button {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    border: 0.2rem solid white;
+    border: 0.1rem solid white;
     border-radius: 10px;
     font-size: 1.5rem;
     transition: 0.3s;
@@ -140,7 +149,18 @@ margin-bottom: 1.5rem;
     padding-top: 0.5rem;
 }
 
-.card-button:hover {
+.photo-card-button {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: 0.1rem solid white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.card-button:hover, .photo-card-button:hover {
     background-color: white;
     color: black;
 }
@@ -164,4 +184,41 @@ margin-bottom: 1.5rem;
 
 .card-header {
     padding: 2rem;
+}
+
+.evenimente-card-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    url("../resources/evenimente/evenimente-infocus.jpg");
+    background-size: cover;
+}
+
+.arta-card-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    url("../resources/arta/arta-infocus.jpg");
+    background-size: cover;
+}
+
+.produse-card-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    url("../resources/produse/produse-infocus.jpg");
+    background-size: cover;
+}
+
+.macro-card-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    url("../resources/macro/macro-infocus.jpg");
+    background-size: cover;
+}
+
+.urbex-card-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    url("../resources/urbex/urbex-infocus.jpg");
+    background-size: cover;
+}
+
+.sedinta-card-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    url("../resources/sedinte/sedinte-infocus.jpg");
+    background-position: 25% 25%;
+    background-size: cover;
 }

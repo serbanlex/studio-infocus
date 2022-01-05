@@ -35,6 +35,30 @@
     background-size: cover;
 }
 
+.produse-jumbotron-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../resources/produse/watch.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.macro-jumbotron-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../resources/macro/bridge.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.urbex-jumbotron-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../resources/macro/bridge.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
  .mt-10 {
      margin-top: 10rem;
  }
@@ -131,6 +155,10 @@ margin-bottom: 1.5rem;
 
 .breadcrumb-portofoliu a:hover{
     transition: 0.3s;
+    color: rgb(175, 11, 11);
+}
+
+.breadcrumb-portofoliu-active a{
     color: rgb(175, 11, 11);
 }
 

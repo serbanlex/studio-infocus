@@ -6,6 +6,10 @@
     width: 15%;
 }
 
+.w-10 {
+    width:10%;
+}
+
 .gradient {
     background-image: linear-gradient(to right, rgb(70, 70, 70), rgb(29, 29, 29));
 }
@@ -124,18 +128,21 @@ margin-bottom: 1.5rem;
     url("../resources/main/fotografie-infocus.jpg");
     background-size: cover;
     background-position: 10%;
+    background-repeat: no-repeat;
 }
 
 .design-card-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
     url("../resources/main/design-infocus.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .edit-card-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
     url("../resources/main/editare-infocus.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card-button {
@@ -190,30 +197,35 @@ margin-bottom: 1.5rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
     url("../resources/evenimente/evenimente-infocus.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .arta-card-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
     url("../resources/arta/arta-infocus.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .produse-card-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
     url("../resources/produse/produse-infocus.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .macro-card-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
     url("../resources/macro/macro-infocus.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .urbex-card-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
     url("../resources/urbex/urbex-infocus.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .sedinta-card-bg {
@@ -221,4 +233,5 @@ margin-bottom: 1.5rem;
     url("../resources/sedinte/sedinte-infocus.jpg");
     background-position: 25% 25%;
     background-size: cover;
+    background-repeat: no-repeat;
 }

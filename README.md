@@ -1,6 +1,6 @@
 # Studio-Infocus website
-This is a presentation website that promotes a young photographer's work and skills in Timisoara.
-The site is available [here](https://studioinfocus.ro/)
+This is a presentation website that promotes a young photographer's work and skills in Timisoara.<br>
+The site is available [here]("https://studioinfocus.ro/").
 
 
 ### Code quality requirements

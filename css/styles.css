@@ -281,3 +281,25 @@ margin-bottom: 1.5rem;
 .main-page-carousel-button {
     background-color: #d99400;
 }
+
+
+
+  @media only screen and (max-width: 1500px) {
+    .responsive-nav-brand {
+        width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 770px) {
+    .gradient {
+        background-size: 0;
+        background-color: rgb(70, 70, 70);
+        justify-content: center;
+        padding-bottom: 5%;
+    }
+
+    .responsive-nav-brand {
+        padding-left: 20%;
+        padding-bottom: 5%;
+    }
+  }
